@@ -1,0 +1,573 @@
+body {
+  background-color: #121212;
+}
+
+.site-drop-shadow #canvas #canvas-mod {
+    box-shadow: 0 0 40px rgba(0,0,0,.05);
+}
+
+#canvas-mod {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 20px;*/
+    position: relative;
+    background-color: #00070e;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#canvas {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 20px;*/
+    position: relative;
+    background-color: #00070e;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0f0f0f;
+    margin-top: 9px;
+    width: 100%;
+    height: 67px;
+
+}
+
+.navbar-red a {
+  color: red;
+}
+
+.navbar-blue a {
+  color: blue;
+}
+.navbar-container {
+  position: relative;
+  width: 100%;
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo img {
+   position: absolute;
+   max-width: 54.063em;
+   max-height: 8.063em;
+   margin-top: 27px;
+}
+
+.main-banner {
+   background-image: url(../images/bgimage.jpg);
+   z-index: -99999;
+   width: 100%;
+   height: 680px;
+}
+
+header nav {
+     float: left;
+     margin-left: 8em;
+ }
+
+ .menu_bar {
+     display: none;
+ }
+
+ header ul {
+     overflow: hidden;
+     list-style: none;
+
+ }
+
+ .rightirons {
+   float: right;
+   padding-left: 15px;
+   font-size: 15pt;
+ }
+
+ header > li {
+      float: left;
+      display: inline;
+ }
+
+ header nav > ul > li {
+     float: left;
+ }
+
+ header nav ul li a {
+     color: #393939;
+     padding: 20px;
+     font: 1.113em "Roboto";
+     text-transform: uppercase;
+     text-decoration: none;
+     display: block;
+
+ }
+
+ header a:hover {
+     text-decoration: none;
+ }
+
+     header nav a.active, header nav a:hover {
+         color: #ffffff;
+
+     }
+
+
+li {
+  list-style: none;
+}
+
+.mainreadmore {
+    background-color: #198fd8;
+    text-align: center;
+    border: 1px solid #198fd8;
+    font-size: 1em;
+    color: white;
+    width: 195px;
+    height: 52px;
+}
+
+.banner-text h1 {
+  margin-bottom: 0px;
+  padding-top: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font: 800 5em "Roboto";
+  letter-spacing: 1px;
+}
+
+.banner-text p {
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font: 100 11pt "Roboto";
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+
+/*.news-container {
+  position: relative;
+  width: 100%;
+  max-width: 1199px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}*/
+
+
+    .news-section .inner {
+        padding: 20px 0;
+    }
+
+    .first-images {
+        width: 75%;
+        height: 100%;
+        /*padding-bottom: 42.2%;*/
+    }
+
+
+    #news-wapper .item {
+        float: left;
+        width: 29%;
+        /*padding-bottom: 14.05%;*/
+        position: relative;
+        padding-right: 0px;
+    }
+
+    #news-page .item {
+        float: left;
+        width: 37%;
+        /*padding-bottom: 14.05%;*/
+        position: relative;
+        padding-right: 0px;
+    }
+    .news-section-page .news-content-one {
+        position: absolute;
+        bottom: 134px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 20px;
+    }
+
+    .news-section-page .news-content-two {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 20px;
+    }
+
+    .news-section-page .inner {
+       margin: 5px auto;
+       box-sizing: border-box;
+       width: 141%;
+    }
+
+
+    .news-section .news-content-one {
+        position: absolute;
+        bottom: 134px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 20px;
+    }
+
+    .news-content-one h2 {
+      color: white;
+      width: 82%;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      text-align: left;
+      font: 400 25pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+    .news-content-one p {
+      text-align: left;
+      text-transform: uppercase;
+      color: #198fd8;
+      font: 500 11pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+    .news-section .news-content-two {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        padding: 20px;
+    }
+
+
+
+    .news-content-two h2 {
+      color: white;
+      width: 82%;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      text-align: left;
+      font: 400 15pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+    .news-content-two p {
+      text-align: left;
+      text-transform: uppercase;
+      color: #198fd8;
+      font: 500 11pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+
+.videowrapper, .tweetwrapper {
+   display: inline-block;
+}
+
+.video_title {
+   color: white;
+   text-transform: uppercase;
+   font: 100 16pt "Roboto";
+   letter-spacing: 1px;
+}
+
+.tweetwrapper {
+   padding-left: 5.1em;
+   width: 100%;
+   max-width: 19.5em;
+}
+
+.videowrapper {
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.avl_partners {
+    margin-bottom: 0px;
+    margin-top: 3em;
+    background-color: #000;
+    max-width: 100%;
+    max-height: 15em;
+}
+
+    .partnerlogo {
+      display: inline-block;
+      padding: 12px;
+    }
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 3em;
+}
+
+footer p {
+  float: right;
+  font: 100 9pt "Roboto";
+}
+
+
+
+
+.team-banner {
+   background-image: url(../images/team-banner.jpg);
+   z-index: -99999;
+   width: 100%;
+   height: 480px;
+}
+
+    .team-quton {
+        padding-top: 193px;
+    }
+
+    .team-quton h1 {
+      color: white;
+      text-transform: uppercase;
+      text-align: left;
+      margin-bottom: 1px;
+      font: 500 25pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+    .team-quton p {
+      color: white;
+      text-transform: uppercase;
+      text-align: left;
+      font: 100 15pt "Roboto";
+      letter-spacing: 1px;
+    }
+
+    .team-images img {
+      border-bottom: 3px solid #198fd8;
+      max-width: 89%;
+      height: auto;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+
+
+    .team-section h2 {
+       color: white;
+       text-transform: uppercase;
+       font: 500 15pt "Roboto";
+       letter-spacing: 1px;
+    }
+
+.next-events {
+  background-color: #000d19;
+  width: 255px;
+  margin-bottom: 2em;
+}
+
+      .next-events h2 {
+          border-bottom: 3px solid #198fd8;
+          margin-bottom: 0;
+          padding: 13px;
+      }
+
+      .next-events p {
+         padding: 15px;
+
+         font: 500 10pt "Roboto";
+         letter-spacing: 1px;
+         text-transform: uppercase;
+         color: #3880b2;
+         margin-bottom: 0;
+      }
+
+      .next-events hr {
+        border-top: 1px solid #198fd8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+.live-stream {
+    background-color: #000d19;
+    width: 255px;
+    margin-bottom: 19px;
+}
+
+      .live-stream h2 {
+          border-bottom: 3px solid #198fd8;
+          margin-bottom: 0;
+          padding: 13px;
+      }
+
+.LeftTeam {
+  display: inline-block;
+}
+
+.RightTeam {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.CalgarySection {
+   margin-top: 15px;
+}
+
+.Calgary-tweet-feed {
+    max-width: 255px;
+    height: 431px;
+}
+
+.senion-team {
+    background-color: #000d19;
+    width: 255px;
+    margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-section {
+    margin-bottom: 5px;
+    margin-top: 1em;
+    padding-right: 26px;
+}
+
+.about-section img {
+  max-width: 74%;
+}
+
+    .subtitle {
+       margin-top: 1em;
+       font: 100 12e "Roboto";
+       letter-spacing: 1px;
+    }
+
+    article {
+      max-width: 34em;
+      font: 300 13pt "Roboto";
+      letter-spacing: 1px;
+      line-height: 25px;
+      /*text-align: justify;*/
+      color: #4a5d6c;
+    }
+
+  .staffPage {
+    padding-bottom: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  .staffPage img {
+    border-radius: 200px;
+    padding-left: 15px;
+    margin-top: 3em;
+    width: 92%;
+}
+
+
+.box {
+    display: inline-block;
+    padding-left: 5.9px;
+    padding-right: 5.9px;
+    max-width: 200px;
+    height: 75px;
+    margin: 10px;
+}
+
+  .staffContent {
+    background-color: #000d19;
+    border-radius: 5px 5px 0 0;
+    margin-top: -100px;
+    padding: 111px 10px 28px 10px;
+    width: 100%;
+  }
+
+  .staffContent, p, span, h3 {
+      color: white;
+  }
+
+  .staffContent h3 {
+     font: 300 13pt "Roboto";
+     letter-spacing: 1px;
+}
+  }
+
+  .staffContent p {
+     font: 300 5pt "Roboto";
+     letter-spacing: 1px;
+     text-transform: lowercase;
+  }
+
+  .staffContent span {
+     font: 300 13pt "Roboto";
+     letter-spacing: 1px;
+     text-transform: lowercase;
+  }
+
+  .staffTwitter {
+    background-color: #3880b2;
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+    clear: left;
+  }
+
+
+
+    @media (max-width: 700px) {
+
+    article {
+        max-width: 30em;
+        font: 100 13pt "Roboto";
+        line-height: 25px;
+        /*text-align: justify;*/
+        color: #4a5d6c;
+    }
+
+
+    .about-section img {
+        max-width: 101%;
+    }
+
+    .Calgary-tweet-feed {
+        max-width: 325px;
+
+    }
+
+    .team-images img {
+        max-width: 100%;
+    }
+
+    .next-events, .live-stream, .senior-team {
+       width: 325px;
+    }
+
+    .banner-text h1 {
+         padding-top: 3em;
+         font-size: 3em;
+    }
+
+    .main-banner {
+        height: 541px;
+    }
+
+    .tweetwrapper {
+       padding-left: 0em;
+       text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    }
