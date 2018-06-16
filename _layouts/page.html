@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% include team-banner.html %}
+<div class="team-section main-container container">
+    <div class="LeftTeam">
+        {{ content }}
+    </div>
+    <div class="RightTeam">
+        <div class="CalgarySection">
+            {% include next-events.html %}
+            {% include live-stream.html %}
+            {% include tweet-feed.html %}
+        </div>
+    </div>
+</div>
