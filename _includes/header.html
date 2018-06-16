@@ -6,12 +6,12 @@
 
         <nav class="navbar navbar-red">
             <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="http://sectorsixapparel.com/esports/team-marketplace/avalanche-esports/" alt="store">Store</a></li>
-                  </ul>
+                {% for item in site.menus.header %}
+                <li>
+                    <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </nav>
     </div>
 </header>
