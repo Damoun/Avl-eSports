@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% include team-banner.html %}
+<div class="team-section main-container container">
+    {% for item in site.data.members[page.id] %}
+    <div class="box staffPage">
+        <img src="{{ item.photo | default: 'images/placeholder.png' }}" alt="" />
+        <div class="staffContent">
+            <h3>{{ item.name }}</h3>
+            <span>{{ item.role }}</span>
+            <p>{{ item.bio }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
