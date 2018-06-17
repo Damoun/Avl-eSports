@@ -1,8 +1,9 @@
 <ul class="avl_partners">
 <div class="container">
-  <li class="partnerlogo"><img src="images/partner-one.png" alt="razer"></li>
-  <li class="partnerlogo"><img src="images/partner-two.png" alt="sector six"></li>
-  <li class="partnerlogo"><img src="images/partner-three.png" alt="Jerkyxp"></li>
-  <li class="partnerlogo"><img src="images/partner-four.png" alt="Aporia Customs"></li>
+  {% for item in site.data.sponsors %}
+  {% if item.site %}<a href="{{ item.site }}">{% endif %}
+  <li class="partnerlogo"><img src="{{ item.logo }}" alt="{{ item.name }}"></li>
+  {% if item.site %}</a>{% endif %}
+  {% endfor %}
 </div>
 </ul>
