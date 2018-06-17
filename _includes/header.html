@@ -1,12 +1,12 @@
 <header>
     <div class="navbar-container">
         <div class="logo">
-            <img src="images/logoimage.png" alt="logo">
+            <img src="/images/logoimage.png" alt="logo">
         </div>
 
         <nav class="navbar">
             <ul>
-                {% for item in site.menus.header %}
+                {% for item in site.data.navigation %}
                 <li>
                     <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
                 </li>

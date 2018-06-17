@@ -1,9 +1,5 @@
 title: Avalanche Gaming
 description: Esport Organisation with teams for cs:go Halo and call of duty.
 google_analytics: UA—XXXXXXXX-X
-plugins:
-  - jekyll-menus
-whitelist:
-  - jekyll-menus
 include:
   - _pages

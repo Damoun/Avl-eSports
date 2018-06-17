@@ -1,8 +1,8 @@
 - name: Razer
-  logo: images/partner-one.png
+  logo: /images/partner-one.png
 - name: sector six
-  logo: images/partner-two.png
+  logo: /images/partner-two.png
 - name: Jerkyxp
-  logo: images/partner-three.png
+  logo: /images/partner-three.png
 - name: Aporia Customs
-  logo: images/partner-four.png
+  logo: /images/partner-four.png
